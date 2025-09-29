@@ -1,0 +1,131 @@
+h1   {
+ text-align: center;
+ font-size:  80px; 
+ color:blueviolet;
+ text-decoration:underline;
+ margin-bottom:2px;
+}
+.container-bot  {
+   text-align : center
+}
+.table-h  {
+  position:relative;
+  width:fit-content;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height: 10px;
+  padding:10px;
+   gap: 180px;
+  font-size :20px
+}
+.warper     {
+  width:fit-content;
+  margin:0 auto
+}
+.header-h  .emoj  {
+  flex : 1;
+  text-align:center;
+}
+ .timer    {
+  display :inline-block;
+  white-space:nowrap;
+  text-align:right;
+  flex:1
+}
+.emoj {
+  
+  flex:1;
+  text-align:center;
+  font-size: 35px;
+  margin-top:3px;
+  
+}
+.bot1  {
+  background-color: rgb(0, 255, 110);
+  margin-left :80px;
+  font-size : 20px;
+  margin-top : 2px;
+  
+}
+.bot2  { 
+  background-color: rgb(0, 255, 250);
+  margin-left : 50px;
+  font-size : 20px;
+  margin-right : 50px;
+  margin-top:2px;
+} 
+.bot3  { 
+  background-color: rgb(0, 200, 98);
+  margin-left : 10px;
+  font-size : 20px;
+  margin-top:2px;
+}  
+table ,td {
+    margin-top: 2x;
+    border : 1px solid black;
+    border-collapse: collapse;
+    margin: 100px auto;
+    margin-bottom: 2px;
+}  
+table {
+  margin-top:4px;
+
+}  
+.cell-4   {
+   width:90px;
+   height:90px;
+   font-size: 60px;
+  text-align:center;
+   cursor: pointer
+ 
+}
+.cell-8  { 
+ width:50px;
+ height:50px;
+  font-size: 30px;
+  text-align:center;
+ cursor: pointer
+}   
+.cell-12  { 
+ width:30px;
+ height:30px;
+ font-size: 20px;
+ text-align:center;
+  cursor: pointer;
+} 
+.piccry  {
+  width:50px;
+  height:50px;
+  display:none
+} 
+.lost   {
+  margin-top:2px;
+  display:none;
+  text-align:center;
+  margin-bottom:2px; 
+  font-size : 60px;
+  
+}
+.lost span {
+  background-color: rgb(42, 165, 63);
+  font-size: 45px;
+  margin-top:2px
+}
+.level {
+  display:inline-block;
+  margin-top :2px;
+  background-color:rgb(0, 255, 81); 
+   
+  font-size:40px;
+}
+.levelcenter {
+   text-align:center;
+
+}
+.group-realved {
+  background-color: blue
+
+}
+ 
